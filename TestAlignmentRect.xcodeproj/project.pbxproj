@@ -12,6 +12,7 @@
 		65F0FEFC1C4D714D003D4A66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65F0FEFA1C4D714D003D4A66 /* Main.storyboard */; };
 		65F0FEFE1C4D714D003D4A66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65F0FEFD1C4D714D003D4A66 /* Assets.xcassets */; };
 		65F0FF011C4D714D003D4A66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65F0FEFF1C4D714D003D4A66 /* LaunchScreen.storyboard */; };
+		65F0FF091C4D715F003D4A66 /* BadgedRoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F0FF081C4D715F003D4A66 /* BadgedRoundedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		65F0FEFD1C4D714D003D4A66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65F0FF001C4D714D003D4A66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65F0FF021C4D714D003D4A66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65F0FF081C4D715F003D4A66 /* BadgedRoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgedRoundedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				65F0FEF61C4D714D003D4A66 /* AppDelegate.swift */,
 				65F0FEF81C4D714D003D4A66 /* ViewController.swift */,
+				65F0FF081C4D715F003D4A66 /* BadgedRoundedButton.swift */,
 				65F0FEFA1C4D714D003D4A66 /* Main.storyboard */,
 				65F0FEFD1C4D714D003D4A66 /* Assets.xcassets */,
 				65F0FEFF1C4D714D003D4A66 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65F0FF091C4D715F003D4A66 /* BadgedRoundedButton.swift in Sources */,
 				65F0FEF91C4D714D003D4A66 /* ViewController.swift in Sources */,
 				65F0FEF71C4D714D003D4A66 /* AppDelegate.swift in Sources */,
 			);
